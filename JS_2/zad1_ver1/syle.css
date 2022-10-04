@@ -9,25 +9,12 @@ body {
 	background-size: cover;
 	font-family: sans-serif;
 	padding: 50px;
+}
 
-/* (A) CUSTOM "STAR ICON ONLY" FONT */
-/* https://icomoon.io/ */
-@font-face {
-	font-family: "icomoon";
-	src: url(icomoon.woff);
-  }
-   
-  /* (B) STAR RATING WRAPPER */
-  .starwrap { display: flex; }
-   
-  /* (C) STAR ICON */
-  .star {
-	font-family: "icomoon" !important;
-	font-size: 24px; color: #d1d1d1;
-	font-style: normal; font-weight: normal; font-variant: normal;
-	text-transform: none; line-height: 1;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-  }
-  .star::before { content: "\e9d9"; }
-  .star.on { color: #ffe000; }
+.container {
+	max-width: 800px;
+	margin: auto;
+	border: 2px solid brown;
+	border-radius: 30px;
+	display: flex;
+	background-color: rgba(255, 255, 255, 0.3);
