@@ -32,15 +32,16 @@ h2{
 
 .film {
 	margin-top: 50px;
+	margin-left: 45px;
     vertical-align: top;
     display: inline-block;
     text-align: center;
 	align-content: space-around;
-    width: 220px;
+    width: 200px;
 }
 
 .film p{
-	padding: 20px 25px 20px 20px;
+	padding: 15px 0px 5px;
 	text-align:justify;
 	align-content:flex-start;
 }
