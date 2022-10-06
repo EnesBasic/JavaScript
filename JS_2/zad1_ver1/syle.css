@@ -1,4 +1,4 @@
-* {
+*{
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -11,7 +11,7 @@ body {
 	padding: 50px;
 }
 
-img.film {
+div.film img{
 	position: absolute;
     top: 0;
     width: 100px;
