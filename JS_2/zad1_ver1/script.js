@@ -1,10 +1,12 @@
 
-function dodajuKorpu(){
 
-    let mainEL = element.closest('.sadrzaj');
-    let cijena = mainEL.querySelector('.cijena').innerText;
-    let ime = mainEL.querySelector('h3').innerText;
-    let kolicina = mainEL.querySelector('input').value;
+
+function dodajuKorpu(element){
+
+    let mainEl = element.closest('.film');
+    let cijena = mainEl.querySelector('.cijena').innerText;
+    let name = mainEl.querySelector('h3').innerText;
+    let kolicina = mainEl.querySelector('input').value;
     let korpaFilmovi = document.querySelector('.korpa-filmovi');
 
     if(parseInt(kolicina)>0){
@@ -12,22 +14,14 @@ function dodajuKorpu(){
         cijena = cijena.substring(1);
         console.log(typeof(cijena));
         console.log(typeof(kolicina));
+        cijena = parseInt(cijena);
+        kolicina = parseInt(kolicina);
+
+        let total = cijena * kolicina;
+        
+        
 
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 };
