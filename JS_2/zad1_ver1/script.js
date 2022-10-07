@@ -19,8 +19,13 @@ function dodajuKorpu(element){
 
         let total = cijena * kolicina;
         
-        
+        korpaFilmovi.innerHTML +=
+        `<div class= korpa-film>
+        <h3>${name}</h3>
+        <p>${cijena} x ${kolicina} kom = <span>${total}</span> €</p>
+        <button onclick="ukloniizKorpe(this)" class="ukloniFilm">Ukloni</button>`
 
+        //document.querySelector('.ukloni').innerText = `Total: ${}`
 
     }
 
