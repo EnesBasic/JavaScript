@@ -25,7 +25,7 @@ function dodajuKorpu(element){
         <p>${cijena} x ${kolicina} kom = <span>${total}</span> €</p>
         <button onclick="ukloniizKorpe(this)" class="ukloniFilm">Ukloni</button>`
 
-        //document.querySelector('.ukloni').innerText = `Total: ${}`
+        document.querySelector('.total').innerText = `total: ${alltotal} €`;
 
     }
 

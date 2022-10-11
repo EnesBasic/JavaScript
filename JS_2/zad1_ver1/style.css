@@ -12,27 +12,25 @@ html, body {
 	padding: 0;
 	background-image: url('img/bg.jpg');
 	background-size: cover;
-	/*background-position: center;*/
-	/*position: absolute;*/
 	overflow-x: hidden;
 }
 
 h1{
 	text-align: left;
-	margin-left: 280px;
+	margin-left: 250px;
 
 }
 
 h2{
 	padding-top: 10px;
 	text-align: left;
-	margin-left: 260px;
+	margin-left: 250px;
 	text-decoration:underline;
 }
 
 .film {
-	margin-top: 50px;
-	margin-left: 45px;
+	margin-top: 40px;
+	margin-left: 10px;
     vertical-align: top;
     display: inline-block;
     text-align: center;
@@ -41,9 +39,10 @@ h2{
 }
 
 .film p{
-	padding: 15px 0px 5px;
+	padding: 5px 0px 5px;
 	text-align:justify;
 	align-content:flex-start;
+	font-size: 12px;
 }
 
 img {
