@@ -37,6 +37,13 @@ const klikni_me_nova1 = b => { // ako imamo jedan argument
 
 klikni_me_nova1(20);
 
+/*----Peti nacin -----------------------------------------------*/
+const klikni_me_nova2 = a => console.log( a + 18 );
+
+klikni_me_nova2(20);
+
+
+
 
 
 
