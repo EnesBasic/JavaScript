@@ -8,4 +8,21 @@
 7.) resize
 ----------------------------------------------------------------*/
 
-const klikni = (dugme) => console.log(dugme.innerText);
+const klikni_me = (dugme) => {
+    console.log(dugme.innerText);
+}
+
+let btns = document.querySelectorAll('button');
+
+
+btns.forEach(function(btn) {
+
+    //Event listener koji ceka klik za svaki button
+    btn.addEventListener('click',function(event) {
+        //console.log(event.target);
+        let clicked_btn = event.target;
+        console.log(clicked_btn.innerText);
+    });
+    
+
+});
