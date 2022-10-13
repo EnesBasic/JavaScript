@@ -10,11 +10,13 @@ klikni_me();
 
 /*----NOVI Nacin---------------------------------------*/
 
- let klikni_me_nova = () => {
-    let a = 5;
-    let b = 10;
+const klikni_me_nova = () => {
+    let a = 15;
+    let b = 20;
     console.log( a + b );
 }
+
+klikni_me_nova();
 
 
 
