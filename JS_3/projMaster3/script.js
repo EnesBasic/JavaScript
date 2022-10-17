@@ -30,7 +30,7 @@ window.addEventListener("keydown", (event) => {
     };
 
    keyElement.classList.add('playing');
-   
+
 });
 
 
