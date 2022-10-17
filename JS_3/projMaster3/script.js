@@ -28,7 +28,7 @@ window.addEventListener("keydown", (event) => {
         case 73:
             animateHiHatClosed();
             break;
-    };
+    }
 
    keyElement.classList.add('playing');
 
@@ -49,10 +49,14 @@ const removeHiHatTopTransition = e => {
 const removeKeyTransition = e => {
     if(e.propertyName !== 'transform') return;
         e.target.classList.remove('playing');
+};
+
+
 
 let drumKeys = document.querySelectorAll('.key');
 
-drumKeys.foreach (key => {
+
+drumKeys.forEach(key => {
     key.addEventListener("transitionend", removeKeyTransition);
 });
 
