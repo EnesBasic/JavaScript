@@ -25,6 +25,7 @@ window.addEventListener("keydown", (event) => {
             animateCrashOrRide();
             break;
         case 75:
+        case 73:
             animateHiHatClosed();
             break;
     };
@@ -42,7 +43,7 @@ const removeCrashRideTransition = e => {
 
 const removeHiHatTopTransition = e => {
     if(e.propertyName !== 'top') return;
-        e.target.classList.remove('playing');
+        e.target.style.top = '166px';
 };
 
 const removeKeyTransition = e => {
